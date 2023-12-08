@@ -1,0 +1,6 @@
+@media (max-width: 600px) {
+  html {
+    -webkit-flex-direction: column;
+    flex-direction: column;
+  }
+}
