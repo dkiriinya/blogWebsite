@@ -1,21 +1,35 @@
 body {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
+    margin:0;
+
 }
 .navbar {
     overflow: hidden;
-    background-color: rgb(31, 40, 90);
+    background-color: black;
+    padding: 30px;
+    text-align: center;
 }
     
 .navbar a {
-    float: left;
+    float: right;
     color: white;
-    text-align: center;
-    padding: 14px 16px;
+   
+    padding: 14px 14px;
     text-decoration: none;
     font-size: 17px;
+    font-family: sans-serif;
+}
+.navbar a#Home{
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 14px 14px;
+  text-decoration: none;
+  font-size: 17px;
+  font-family: sans-serif;
 }
 .navbar a:hover {
-    background-color: #ddd;
+    background-color: gray;
     color: black;
 }
