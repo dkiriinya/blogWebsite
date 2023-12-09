@@ -5,15 +5,17 @@
 body {
     margin: 0;
     font-family: 'Courier New', Courier, monospace;
-    background-color: lightblue;
+    background-color: blanchedalmond;
 }
 
 .navbar {
     overflow: hidden;
-    background-color: black;
-    padding: 30px;
+    background-color:black;
+    padding: 17px 17px;
     text-align: center;
     display: flex;
+
+
 }
 
 .navbar a,
@@ -45,7 +47,7 @@ body {
     border-radius: 10px;
     overflow: hidden;
     transition: transform 0.3s ease; 
-    background-color: cyan;
+    background-color: greenyellow;
 
 }
 .box:hover {
@@ -88,3 +90,6 @@ footer {
 .Container p{
    font-size: 17px;
 }
+
+
+
