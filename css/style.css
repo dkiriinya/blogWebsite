@@ -91,5 +91,35 @@ footer {
    font-size: 17px;
 }
 
+#topimage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh; /* Set the height to 100% of the viewport height */
+    
+}
+
+#topimage img {
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 8px;
+}
+#titletop {
+    justify-content: center;
+
+}
+#reviewfilez{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+.social-links img{
+    height: 50px;
+    
+}
 
 
