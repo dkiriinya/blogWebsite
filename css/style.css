@@ -1,7 +1,9 @@
 * {
     box-sizing: border-box;
 }
-
+html {
+    scroll-behavior: smooth;
+}
 body {
     margin: 0;
     font-family: 'Courier New', Courier, monospace;
@@ -95,8 +97,7 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 50vh; /* Set the height to 100% of the viewport height */
-    
+    height: 50vh; 
 }
 
 #topimage img {
